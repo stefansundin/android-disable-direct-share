@@ -1,5 +1,12 @@
 This is based on [an excellent Stack Exchange answer by REJH](https://android.stackexchange.com/a/160350) (go there and give him an upvote).
 
+## Install without computer
+
+1. Download an app that can copy a file to system directories. I used [Root Browser Classic](https://play.google.com/store/apps/details?id=com.jrummyapps.rootbrowser.classic).
+1. Download [disable-direct-share.xml](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share.xml).
+1. Enable root access for Apps in your device's Developer options.
+1. Use the app to copy the file to `/data/system/ifw/`.
+
 ## Install with adb
 
 1. Turn on "Android debugging" in your device's Developer options.
