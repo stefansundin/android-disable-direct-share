@@ -1,0 +1,26 @@
+#!/sbin/sh
+
+OUTFD=/proc/self/fd/$2
+ZIP=$3
+
+ui_print() {
+  echo "ui_print $1" > "$OUTFD";
+  echo "ui_print" > "$OUTFD";
+}
+set_progress() { echo "set_progress $1" > "$OUTFD"; }
+
+set_progress 0.01;
+ui_print " ";
+ui_print "Disable Direct Share Script";
+ui_print "by Stefan Sundin";
+ui_print "https://github.com/stefansundin/android-disable-direct-share";
+ui_print " ";
+ui_print "Copying disable-direct-share.xml to /data/system/ifw/";
+
+mount /data;
+unzip -o "$ZIP" disable-direct-share.xml -d /data/system/ifw/;
+umount /data;
+
+ui_print "Done!";
+ui_print " ";
+set_progress 1.0;

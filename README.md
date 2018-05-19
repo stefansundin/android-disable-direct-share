@@ -29,3 +29,8 @@ $ adb shell ls /data/system/ifw/
 disable-direct-share.xml
 $ adb shell rm /data/system/ifw/disable-direct-share.xml
 ```
+
+## Install with TWRP
+
+1. Download [disable-direct-share-v1.zip](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share-v1.zip).
+1. Reboot into TWRP and flash the zip file. Do not use zip signature verification.
