@@ -1,0 +1,7 @@
+<rules>
+  <service block="true" log="true">
+    <intent-filter>
+      <action name="android.service.chooser.ChooserTargetService"/>
+    </intent-filter>
+  </service>
+</rules>
