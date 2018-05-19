@@ -22,7 +22,7 @@ This is based on [an excellent Stack Exchange answer by REJH](https://android.st
    adb push disable-direct-share.xml /data/system/ifw/
    ```
 
-### Uninstall
+Uninstall with:
 
 ```
 $ adb shell ls /data/system/ifw/
@@ -33,4 +33,5 @@ $ adb shell rm /data/system/ifw/disable-direct-share.xml
 ## Install with TWRP
 
 1. Download [disable-direct-share-v1.zip](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share-v1.zip).
+1. Download [disable-direct-share-v1-uninstall.zip](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share-v1-uninstall.zip) so that you can easily uninstall it at a later time.
 1. Reboot into TWRP and flash the zip file. Do not use zip signature verification.
