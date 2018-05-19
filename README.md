@@ -6,7 +6,10 @@ This is based on [an excellent Stack Exchange answer by REJH](https://android.st
 1. Enable root access for ADB.
 1. Make sure your device is visible when running `adb devices`.
 1. Launch adb with root privileges: `adb root`
-1. Download `disable-direct-share.xml`.
+1. Download `disable-direct-share.xml`:
+   ```
+   wget https://raw.githubusercontent.com/stefansundin/android-disable-direct-share/master/disable-direct-share.xml
+   ```
 1. Install:
    ```
    adb push disable-direct-share.xml /data/system/ifw/
