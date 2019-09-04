@@ -1,5 +1,9 @@
 This is based on [an excellent Stack Exchange answer by REJH](https://android.stackexchange.com/a/160350) (go there and give him an upvote).
 
+## Android 10 warning
+
+**It seems like this will crash apps if used on Android 10.** See [issue #2](https://github.com/stefansundin/android-disable-direct-share/issues/2) for discussion.
+
 ## Install without computer
 
 1. Download an app that can copy a file to system directories. I used [Root Browser Classic](https://play.google.com/store/apps/details?id=com.jrummyapps.rootbrowser.classic).
