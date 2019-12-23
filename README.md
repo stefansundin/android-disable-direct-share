@@ -39,3 +39,7 @@ $ adb shell rm /data/system/ifw/disable-direct-share.xml
 1. Download [disable-direct-share-v1.zip](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share-v1.zip).
 1. Download [disable-direct-share-v1-uninstall.zip](https://github.com/stefansundin/android-disable-direct-share/releases/download/v1/disable-direct-share-v1-uninstall.zip) so that you can easily uninstall it at a later time.
 1. Reboot into TWRP and flash the zip file. Do not use zip signature verification.
+
+## Magisk module
+
+See this repository: https://github.com/AndroPlus-org/magisk-module-direct-share-disabler
